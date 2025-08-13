@@ -40,18 +40,18 @@ The dataset contained real-world data science job postings from 2023, including:
 * Transform: Adjusted data types, removed unnecessary columns, standardized text, and trimmed extra spaces.
 
 *data_job_salary*
-![Data_job_salary](Images\Project_Analysis_Screenshot-4.png)
+![Data job salary applied settings](Images/Project_Analysis_Screenshot-4.png)
 
 *data_job_skills*
-![Data_job_skills](Images\Project_Analysis_Screenshot-5.png)
+![Data job skills applied settings](Images/Project_Analysis_Screenshot-5.png)
 
 * Load: Brought the cleaned tables (data_jobs_all and data_job_skills) into Excel for analysis.
 
 *data_job_salary*
-![data_job_salary_image](Images\Power Query ETL-2.png)
+![data job salary-Power Query ETL](Images/Power Query ETL-2.png)
 
 *data_job_skills*
-![data_job_skills_image](Images\Power Query ETL-3.png)
+![Data job skils Power Query ETL](Images/Power Query ETL-3.png)
 
 **Findings:**
 
@@ -59,7 +59,7 @@ The dataset contained real-world data science job postings from 2023, including:
 
 * Roles with fewer required skills, like Business Analyst, generally have lower pay.
 
-![Salary Analysis](Images\Salary-Analysis.png)
+![Salary Analysis](Images/Salary-Analysis.png)
 
 **Takeaway:**
 Building a diverse skill set can significantly improve earning potential, especially in technical and specialized positions.
@@ -85,7 +85,7 @@ MEDIAN(data_jobs_all[salary_year_avg])
 
 * The US shows a particularly strong salary premium in tech-heavy positions, likely due to industry concentration.
 
-![Salary Analysis](Images\Project_Analysis_Chart2.png)
+![Pivot Tables & DAX](Images/Project_Analysis_Chart2.png)
 
 **Takeaway:**
 Salary expectations should factor in both the role and location — geographic differences can heavily influence pay.
@@ -97,11 +97,11 @@ Salary expectations should factor in both the role and location — geographic d
 
 * Linked data_jobs_all and data_job_skills via the job_id column in Power Pivot.
 
-![Salary Analysis](Images\Project_Analysis_Screenshot-1.png)
+![Relationship Diagram](Images/Project_Analysis_Screenshot-1.png)
 
 * Used the data model to identify skill frequency across job postings.
 
-![Salary Analysis](Images\Project_Analysis_Screenshot-2.png)
+![Power Pivot](Images/Project_Analysis_Screenshot-2.png)
 
 **Findings:**
 
@@ -109,7 +109,7 @@ Salary expectations should factor in both the role and location — geographic d
 
 * Cloud tools like AWS and Azure are becoming increasingly relevant in the market.
 
-![Salary Analysis](Images\Project_Analysis_Chart3.png)
+![Horizontal Bar Chart](Images/Project_Analysis_Chart3.png)
 
 **Takeaway:**
 Staying competitive means mastering core programming languages while keeping up with emerging cloud technologies.
@@ -129,7 +129,7 @@ Staying competitive means mastering core programming languages while keeping up 
 
 * General tools like PowerPoint and Word appear far less often and are tied to lower salaries.
 
-![Salary Analysis](Images\Project_Analysis_Chart4.png)
+![Bar chart with line chart](Images/Project_Analysis_Chart4.png)
 
 **Takeaway:**
 If salary growth is a priority, focus on mastering technical skills with high market demand.
